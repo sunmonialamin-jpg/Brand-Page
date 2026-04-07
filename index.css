@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins", sans-serif;
+}
+section{
+    width: 100%;
+    height: 80vh;
+}
+section nav{
+    display: flex;
+    gap: 300px;
+    padding-top: 10px;
+}
+section nav ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+}
+section nav h1{
+    padding-left: 100px;
+}
+section nav ul a{
+    text-decoration: none;
+    color: black;
+}
+section nav .secondnav span li a{
+    background-color: green;
+    padding: 10px 20px;
+    color: white;
+    
+}
+.divtext{
+    width: 45%;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+.divtext h1{
+    font-size: 4rem;
+}
+.divtext p{
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.divtext h1 span{
+    color: green;
+}
+.divtext span a{
+   background-color: green;
+   text-decoration: none;
+   color: white;
+   padding: 10px 20px;
+   
+}
+.divtext a{
+    color: black;
+    text-decoration: none;
+    gap: 30px;
+    align-items: center
+}
+.page2{
+    background-color:rgb(11, 11, 36) ;
+    width: 100%;
+    height: 80vh;
+
+}
+.page2 h1{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+    padding-top: 40px;
+}
+.page2 .divbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.page2 .divbox1{
+    width: 150px;
+    border: 1px dotted;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 30px;
+    border-radius: 10px;
+    line-height: 20px;
+    background-color: white;
+}
+.divbox1 .fa-solid{
+    margin-bottom: 20px;
+    color: green;
+    text-align: center;
+    justify-content: center;
+}
+.divbox1 h2{
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+ .page2 .divbox1a{ 
+    background-color: green;
+} 
+.page2 .divbox1a .fa-solid{
+    color: white;
+}
+.page2 .divbox1a h2, .pa{
+    color: white;
+    text-align: center;
+}
+.divbox1 h2, p{
+    color: black;
+    text-align: center;
+}
+.divbox1 p{
+    font-size: 14px;
+}
+section nav ul a:hover{
+    text-decoration:underline solid 2px green;
+    transition: all 2s;
+    scale: 1.1;
+
+}
