@@ -64,7 +64,8 @@ section nav .secondnav span li a{
 .page2{
     background-color:rgb(11, 11, 36) ;
     width: 100%;
-    height: 80vh;
+    height: auto;
+
 
 }
 .page2 h1{
@@ -78,12 +79,14 @@ section nav .secondnav span li a{
     justify-content: center;
     align-items: center;
     gap: 40px;
+    flex-wrap: wrap;
 }
 .page2 .divbox1{
     width: 150px;
     border: 1px dotted;
     display: flex;
     flex-direction: column;
+    
     align-items: center;
     justify-content: center;
     padding: 30px 30px;
@@ -122,5 +125,18 @@ section nav ul a:hover{
     text-decoration:underline solid 2px green;
     transition: all 2s;
     scale: 1.1;
-
+}
+@media (max-width: 768px){
+    section nav ul{
+        display: none;
+    }
+    .divtext{
+        width: 90%;
+        left: 0;
+        padding: 0px 20px 0px 20px;
+    }
+    .divtext h1{
+        font-size: 50px;
+    }
+    
 }
